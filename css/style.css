@@ -1,0 +1,11 @@
+body {
+  float: center;
+  margin: 0 auto;
+  width: 960px;
+}
+
+header {
+  float: left;
+  text-align: center;
+}
+
