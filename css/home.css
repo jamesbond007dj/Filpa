@@ -1,10 +1,13 @@
+
+
+
 section {
   color: red;
   background: white;
+  border-radius: 20px;
   height : 960px;
   opacity: 0.5;
-  transition: 2s all;
-  transition: 10s all;
+  transition: 999990s all;
   width : 960px;
   
 
@@ -13,12 +16,15 @@ section {
 section:hover {
 
   background: red;
+  border-radius: 20px;
   color: black;
-  height : 150px;
+  height : 170px;
   opacity: 1;
+  transition: 5s all;
+  transition-duration: 15sn;
+  transition-property: height;
   width : 960px;
   
-
 }
 
 
@@ -44,7 +50,7 @@ h1 {
   position: relative;
   margin: 0px 9px 0px 9px;
   text-shadow: 5px;
-  width: 280px;
+  width: 277px;
 }
 
 .seattle:hover {
