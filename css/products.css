@@ -1,10 +1,9 @@
-
 section {
   color: red;
   background: transparent;
   border-radius: 20px;
   height : 960px;
-  margin-top: 20px;
+  margin-top: 10px;
   opacity: 0.5;
   transition: 999990s all;
   width : 960px;
@@ -12,10 +11,9 @@ section {
 }
 
 section:hover {
-
   border-radius: 20px;
   color: transparent;
-  height : 200px;
+  height : 150px;
   opacity: 1;
   transition: 2s all;
   transition-duration: 15sn;
@@ -73,34 +71,17 @@ section:after {
 }
 
 
-h1 {
+h3 {
   
   color: white;
   font-family: 'Audiowide', cursive;
-  font-size: 50px;
-  padding: 20px;
+  font-size: 40px;
+  padding: 10px;
   text-align: center;
   text-shadow: 4px 4px 1px red;
 
 }
 
-h2 {
-  
-  font-family: 'Audiowide', cursive;
-  font-size: 2vw;
-  padding: 25px;
-  text-align: center;
-  
-
-}
-
-h2:hover {
-
-  color: transparent;
-  font-size: 0vw;
-  opacity: 0;
-  transition: 999990s all;
-}
 
 div {
   
@@ -108,14 +89,14 @@ div {
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgb(3, 8, 19);
   display: inline-block;
-  height: 280px;
+  height: 250px;
   margin: 2px;
   object-fit: scale-down;
   opacity: 0.5;
   position: relative;
-  margin: 0px 9px 0px 9px;
+  margin: 5px 20px 5px 20px;
   text-shadow: 5px;
-  width: 277px;
+  width: 250px;
 }
 
 div:hover {
@@ -141,12 +122,12 @@ div:hover {
 .mainMenu {
 
   border: transparent;
-  height: 280px;
+  height: 250px;
   left: 0;
   object-fit: scale-down;
   position: absolute;
   top: 0;
-  width: 277px;
+  width: 250px;
 }
 
 
@@ -160,7 +141,7 @@ span {
   box-sizing: border-box;
   font-family: 'Audiowide', cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
   opacity: 0.7;
   padding: 10px;
   position: absolute;
@@ -169,27 +150,6 @@ span {
 
 }
 
-article {
-
-  float: right;
-  padding: 20px;
-}
-
-p {
-   
-  font-family: 'Audiowide', cursive;
-  font-size: 20px;
-  padding: 5px;
-  text-align: left;
-  
-}
-
-.media {
-
- border-radius: 5px;
- margin: 5px;
- 
-}
 
 #video {
   height: auto;
@@ -203,15 +163,3 @@ p {
   z-index: -999;    
 }
 
-footer {
-
-  margin-top: 100px;
-}
-
-#footerP {
-
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 10px;
-  text-align: left;
-
-}
