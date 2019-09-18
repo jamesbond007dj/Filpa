@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CARPET BACKING ORDER</title>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tamma&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/order.css">
+  </head>
+  <body>
+    <header>
+      <section>
+        <img src="../assets/img/filpa-logo.png"></img>
+        <h3>ORDER NOW</h3>
+       </section>
+    </header>
+      <h1 style="text-align: center">CARPET BACKING ORDER</h1> 
+                 
+      <form name="RegForm" action="/submit.php" onsubmit="return ORDERBACKING()" method="post">  
+        <h2 style="text-align: center">Customer Information</h2> 
+          <p>Name: <input type="text" size=65 name="Name"> </p><br>
+          <p>Company: <input type="text" size=65 name="Company"> </p><br>         
+          <p> Delivery Address: <input type="text" size=65 name="Address">  </p><br> 
+          <p>E-mail Address: <input type="text" size=65 name="EMail">  </p><br> 
+          <p>Telephone: <input type="text" size=65 name="Telephone"> </p><br> 
+        <h2 style="text-align: center">Order Information</h2>
+           <p>Select Carpet Backing Type:  
+            <select type="text" value="" name="Type"> 
+                <option>PRIMARY FILBACK(STANDARD)</option> 
+                <option>SECONDARY DYNAMICBACK(STANDARD)</option> 
+                <option>TURF FIXBOND(2 STICHTED BACKINGS)</option> 
+                <option>TURF TRIOBACK(MULTILAYER FLEECED)</option> 
+                <option>SECONDARY FINEBACK(FLEECED SECONDARY)</option> 
+                <option>NONWOVEN FELTBACK(PP&PET FELT)</option> 
+                <option>PP FIBRILATED YARN JRY(FOR OUTDOOR CARPETS)</option> 
+            </select></p><br><br>            
+            <p>Select Width:
+              <select type="text" value="" name="Width"> 
+                  <option>132"- 336 cm</option> 
+                  <option>152" - 386 cm</option> 
+                  <option>156" - 396 cm</option> 
+                  <option>171" - 435 cm</option> 
+                  <option>188" - 478 cm</option> 
+              </select></p><br><br> 
+            <p>Select PIC: 
+                <select type="text" value="" name="Color"> 
+                    <option>5</option> 
+                    <option>13</option> 
+                    <option>15</option> 
+                    <option>16</option> 
+                    <option>18</option>
+                    <option>13+13 DOUBLE BACK</option>
+                    <option>13+18 DOUBLE BACK</option>
+                    <option>NON</option>  
+                </select></p><br><br> 
+              <p>Select Weight:   
+                <select type="text" value="" name="Color"> 
+                    <option>LIGHT</option> 
+                    <option>REGULAR</option> 
+                    <option>HEAVY</option> 
+                </select></p><br><br> 
+                <p>Select Color: 
+                  <select type="text" value="" name="Color"> 
+                      <option>TAN</option> 
+                      <option>CHARCOAL</option> 
+                      <option>BLACK</option> 
+                      <option>BROWN</option> 
+                      <option>WHITE</option>
+                      <option>ORANGE</option>
+                      <option>BLUE</option>
+                      <option>GREEN</option>  
+                  </select></p><br><br> 
+                  <p>Delivery Date: 
+                    <input type="date" value="" name="Delivery"> 
+                  </p>
+          <p>Comments:  <textarea cols="55" name="Comment">  </textarea></p> 
+          <p><input type="submit" value="Submit Order" name="Submit">      
+              <input type="reset" value="Reset" name="Reset">   
+          </p>          
+      </form> 
+    <footer>
+       <video autoplay muted loop plays-inline id="video">
+        <source src="../assets/vid/city.webm" type="video/webm">
+    </footer>
+  </body>
+</html>
