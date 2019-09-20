@@ -12,21 +12,14 @@
       <section>
           <nav>
               <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="/index.html">MAIN MENU</a></li>
+                <li><a href="/pages/products.html">ORDER MENU</a></li>
               </ul>
             </nav>
         </section>
-
     </header>
-      <h1 style="text-align: center">ORDER FILPA CARPET BACKING</h1> 
-                 
-      <form name="RegForm" action="/submit.php" onsubmit="return ORDERBACKING()" method="post">  
+      <h1 style="text-align: center">ORDER FILPA CARPET BACKING</h1>          
+      <form name="RegForm" action="/pages/complete.html" onsubmit="return ORDERBACKING()" method="post">  
         <h2 style="text-align: center">Customer Information</h2> 
           <p>Name: <input type="text" size=65 name="Name"> </p><br>
           <p>Company: <input type="text" size=65 name="Company"> </p><br>         
@@ -80,9 +73,12 @@
                       <option>BLUE</option>
                       <option>GREEN</option>  
                   </select></p><br><br> 
+                  <p>Order Quantity Rolls (1312yards per roll):
+                    <input type="number" name="Quantity">
+                  </p><br><br> 
                   <p>Delivery Date: 
                     <input type="date" value="" name="Delivery"> 
-                  </p>
+                  </p><br><br>                  
           <p>Comments:  <textarea cols="55" name="Comment">  </textarea></p> 
           <p><input type="submit" value="Submit Order" name="Submit">      
               <input type="reset" value="Reset" name="Reset">   
@@ -90,7 +86,7 @@
       </form> 
     <footer>
        <video autoplay muted loop plays-inline id="video">
-        <source src="/assets/vid/container.webm" type="video/webm">
+        <source src="/assets/vid/Bokeh with Flare.mov89858.webm" type="video/webm">
     </footer>
   </body>
 </html>
